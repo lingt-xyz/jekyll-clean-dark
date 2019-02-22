@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: Ling@Concordia
+description: Nil
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: "https://lingt.xyz"
@@ -10,19 +10,19 @@ url: "https://lingt.xyz"
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: '/jekyll-clean-dark'
 
-author: Pavel Makhov
-copyright: 2015-2018
+author: Ling
+copyright: 2015-2019
 
 share:
-  facebook: true
-  twitter: true
-  gplus: true
-  linkedin: true
-  pinterest: true
-  email: true
+  facebook: false
+  twitter: false
+  gplus: false
+  linkedin: false
+  pinterest: false
+  email: false
 
 social:
-  github: streetturtle
+  github: lingt-xyz
   stackoverflow: ''
   linkedin:
   instagram: ''
