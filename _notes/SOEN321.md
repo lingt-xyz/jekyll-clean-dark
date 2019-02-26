@@ -1,7 +1,7 @@
 ---
+layout: post
 title: SOEN 321
-layout: course
-comments: true
+comments: false
 ---
 <!--more-->
 
