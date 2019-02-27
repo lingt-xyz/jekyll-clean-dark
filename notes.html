@@ -10,7 +10,7 @@ title: Notes
             <li>
                 <div class="post-time">
                     <i class="fa fa-calendar"></i>
-                    <time>{{ note.date | date: "%d-%m-%Y" }}</time>
+                    <time>{{ note.date | date: "%m-%Y" }}</time>
                     <a href="{{ note.url | prepend: site.url }}">{{ note.title }}</a>
                 </div>
             </li>

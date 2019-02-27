@@ -2,6 +2,9 @@
 layout: post
 title: SOEN 321
 comments: false
+date: 2018-02-19 10:47:45
+tags:
+ - notes
 ---
 <!--more-->
 

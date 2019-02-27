@@ -27,7 +27,7 @@ share:
   email: false
 
 collections:
-  quicknotes:
+  notes:
     output: true
 
 # Google Analytics key, leave blank to ignore
