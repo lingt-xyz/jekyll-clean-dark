@@ -46,6 +46,8 @@ gems: [jekyll-paginate]
 paginate: 10
 excerpt_separator: <!--more-->
 
+mathjax: false
+
 #highlighter: rouge
 #markdown: redcarpet
 #redcarpet:
