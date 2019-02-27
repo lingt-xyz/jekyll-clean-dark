@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Useful Kafka commands"
-date:   2017-03-15 10:47:45
 comments: true
-description: Few useful Kafka commands 
 tags: 
 - kafka
 share: true
