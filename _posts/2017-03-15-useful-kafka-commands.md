@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Useful Kafka commands"
-comments: true
+comments: false
 tags: 
 - kafka
-share: true
+share: false
 ---
 
 # Consumers
