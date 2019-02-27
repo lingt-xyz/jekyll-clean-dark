@@ -13,7 +13,7 @@ share: true
 
 ## Difference between old and new consumers. 
 The new consumer was introduced in version 0.9.0.0, the main change introduced is for previous versions consumer groups were managed by Zookeeper, but for 9+ versions they are managed by Kafka broker. If you use `kafka-console-consumer.sh` for example - it uses an old consumer API. But if you created a new consumer or stream using Java API it will be a new one.  Knowing this defference will help you understand which command to use from examples below.
-
+<!--more-->
 >List consumer groups
 {:.filename}
 ```bash
