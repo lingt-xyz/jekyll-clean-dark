@@ -13,7 +13,7 @@
       {% for tagAll in post.tags %}
         {% for tag in page.tags %}
           {% if tagAll == tag and page.title != post.title and isAdded == false %}
-            <li><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
             {% assign isAdded = true %}
           {% endif %}
         {% endfor %}
