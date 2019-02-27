@@ -23,7 +23,10 @@ layout: page
 
   <div class="post-descr">
     <p>
-      {{ post.description }}
+      {{ page.excerpt }}
+      {% unless page.excerpt == page.content %}
+      <footer><a class="ghost" href="{{ page.url | relative_url }}">read more »</a></footer>
+      {% endunless %}
     </p>
   </div>
 {% endfor %}
