@@ -41,16 +41,29 @@ yandex_metrika: false
 disqus: 
 comments: false
 
-permalink: /:year/:month/:title/
-gems: [jekyll-paginate]
-paginate: 10
+# Jekyll settings
+permalink: /:year/:month/:title/  # see https://jekyllrb.com/docs/permalinks/
+paginate: 2                  # number of articles per page, remove to disable pagination
+excerpt_separator: "<!--more-->"  # indicates the end of the excerpt by two blank lines
+show_excerpts: true          # show article previews on the home page instead of headlines
+
+# Page settings
+
+# Latex settings
+mathjax: false
 
 #highlighter: rouge
 #markdown: redcarpet
 #redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
 
 exclude: ['README.md', 'LICENSE', vendor]
+
+plugins: 
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-default-layout
